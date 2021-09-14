@@ -1,0 +1,102 @@
+.register_box{
+    padding: 3%;
+}
+
+.user-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+.phone-box{
+    display: flex;
+}
+
+.phone-area{
+    width: 25%;
+    margin-right: 10%;
+
+}
+
+.conditions-box{
+    display: flex;
+    padding-top: 2%;
+    align-items: baseline;
+}   
+
+
+.box{
+    width: 30%;
+}
+
+label{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    margin-top: 1%;
+    padding: 1.5% 0%;
+    outline: none;
+    background-color: #f1f1f1;
+    border: none;
+    
+}
+
+.genre-box{
+    display: flex;
+    align-items: baseline;
+    margin-top: 3%;
+}
+
+.check-box{
+    width: 5%;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+}
+.register input[type="submit"]{
+    width: 20%;
+    padding: 1%;
+    margin-top: 2%;
+    background: red;
+    color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/*listado de errores (campos de datos)*/
+.error_mail{
+    display: none;
+    color: red;
+}
+
+.error_password{
+    display: none;
+    color: red;
+}
+
+.error_genre{
+    display: none;
+    color: red;
+    margin-top: 1%;
+}
+
+.error_conditions{
+    display: none;
+    color: red;
+    margin-top: 1%;
+}
+
+@media screen and (max-width:900px) {
+
+.box{
+    width: 100%;
+    margin: 3% 0;
+}
+
+}

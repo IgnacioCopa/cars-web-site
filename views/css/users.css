@@ -1,0 +1,90 @@
+.client_title{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.data_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 10%;
+    flex-wrap: wrap;
+
+}
+
+.person_data{
+
+    width: 40%;
+    margin-left: 5%;
+
+}
+
+.person_data div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 3% 0;
+    background: aliceblue;
+    border-radius: 15px;
+}
+
+.person_data p{
+    font-size: larger;
+    margin-left: 5%;
+
+}
+
+.car_data{
+
+    width: 45%;
+    margin: 0 3%;
+}
+
+.car_name{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.data_next{
+    margin-right: 7%;
+}
+
+.car_data div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 1% 0;
+    
+    border-radius: 15px;
+}
+
+.img_container{
+    justify-content: center;
+
+}
+
+.img_container img{
+    justify-content: center;
+    width: 80%;
+
+}
+
+.p_container{
+    margin: 1% 0;
+    font-size: larger;
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+    .person_data {
+        width: 100%;
+    }
+
+    .car_data {
+        width: 100%;
+        margin: 6%;
+    }
+    
+}

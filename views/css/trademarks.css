@@ -1,0 +1,49 @@
+
+.text-box1{
+    text-align: center;
+    padding: 3%;
+    
+}
+
+.text-box1 h1{
+    margin-bottom: 3%;
+}
+
+.marks-box a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.marks-box a img{
+    display: flex;
+    width: 50%;
+    object-fit: scale-down;
+    
+}
+
+.marks-box a img:hover{
+    width: 53%;
+}
+
+.marks-box{
+    display: flex;
+    
+}
+
+@media screen and (max-width:768px) {
+    
+    .marks-box{
+        flex-wrap: wrap;
+    }
+
+    .text-box1{
+        padding: 10%;
+    }
+
+    .marks-box a{
+        padding-bottom: 10%;
+    }
+
+}

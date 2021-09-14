@@ -1,0 +1,88 @@
+.closed-box{
+    display: flex;
+    font-size: 20px;
+    color: #ff8080;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.box-container-log{
+    
+    display: none;
+    box-shadow: 2px 2px 10px 2px grey;
+    padding: 2%;
+    width: 35%;
+    text-align: center;
+    background: white;
+    padding-bottom: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 32%;
+    top: 20%;
+
+}
+
+.box-container-rec{
+    display: none;
+    box-shadow: 2px 2px 10px 2px grey;
+    padding: 2%;
+    width: 35%;
+    text-align: center;
+    background: white;
+    padding-bottom: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 32%;
+    top: 20%;
+}
+
+.entry{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.entry input{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin: 2% 0%;
+    padding: 2% 0%;
+    justify-content: center;
+    outline: none;
+
+}
+
+.entry input[type="submit"]{
+    background: red;
+    color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo_login{
+    width: 60%;
+}
+
+.client_title{
+    padding-bottom: 4%;
+    font-weight: 600;
+}
+
+@media screen and (max-width:880px) {
+    .box-container-log{
+        width: 65%;
+        left: 17%;
+        top: 35%;
+    }
+
+    .box-container-rec{
+        width: 65%;
+        left: 17%;
+        top: 35%;
+    }
+
+}

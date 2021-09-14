@@ -1,0 +1,506 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0%;
+    
+}
+
+.Container_1{
+    width: 100%;
+}
+
+.Box_1{
+    margin-right: 5.3%;
+    width: 98.2%;
+}
+
+.Box_1 div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background: #f4f4f4;
+    padding: 1%;
+}
+
+.Box_1 a{
+    text-decoration: none;
+    color: black;
+    padding-inline: 1%;
+    display: flex;   
+}
+
+i{
+    padding: 6%;
+}
+
+.Box_1 a:hover{
+    color: red;
+}
+
+.Box_2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    margin-top: 2%;
+}
+/*image gewinn gruppe*/
+.Box_2 img{
+    width: 20%;
+    margin-left: 3%;
+
+
+    
+}
+
+.title{
+    width: 60%;
+    margin-top: 5%;
+    
+}
+
+.social_icons{
+    margin-top: 7.5%;
+    width: 20%;
+}
+
+.social_icons a{
+    margin-inline: 2%;
+
+}
+
+/*Navegar por el menu*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    background-color: #9a1400;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 1% 6%;
+    
+    font-weight: 600;
+    
+}
+
+nav a:hover{
+    color: white;
+    opacity: 0.8;
+}
+
+.Box_3{
+    position: relative;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.Box_3 input{
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    padding: 5% 2%;
+    font-size: 4em;
+    background: none;
+    border: none;
+    
+}
+
+.Box_3 input:hover{
+    opacity: 1;
+}
+
+input[value=">"]{
+    right: 0.5%;
+    top: 40%;
+}
+
+input[value="<"]{
+    top: 40%;
+}
+
+.Box_4{
+width: 100%;
+margin-top: 5%;
+}
+
+
+.Populares p{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.Populares_img{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin: 5% 8%;
+    
+}
+
+.Populares_img div
+{
+    display: block;
+    justify-content: center;
+    align-content: flex-end;
+    width: 100%;
+    margin: 0 2.5%;
+    padding: 4% 1.5%;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.Populares_img div p
+{
+    margin-top: 5%;
+    font-weight: 600;
+    
+}
+
+.Populares_img img{
+    width: 100%;
+    height: 60%;
+}
+
+.Box_5{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 2%;
+    background-color: black;
+}
+
+.Box_5 div p{
+    display: flex;
+    justify-content: center;
+}
+
+.Box_5 p{
+    color: white;
+}
+
+.Box_5 img[src="/img/Banner_0km.PNG"]{
+    width: 100%;
+}
+
+.Box_5 img[src="/img/gewinn_logo2.png"]{
+    width: 25%;
+}
+
+.g_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.Help_us{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 10%;
+    
+}
+
+.Help_us p{
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.Help_us form{
+    width: 40%;
+    font-size: 10px;
+}
+
+.Help_us form input{
+    width: 100%;
+    margin: 2% 0;
+    padding: 2% 0;
+    outline: none;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 40%;
+    margin-bottom: 1.5%;
+
+}
+
+.contact_tel_mail{
+    width: 40%;
+}
+
+.contact div a img{
+    border-radius: 48%;
+    padding: 2%;
+    width: 5%;
+    background: white;
+    margin: 0 1%;
+}
+
+.img_contact
+{
+    margin-left: 15%;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.foot div{
+    display: flex;
+    justify-content: center;
+    background: grey;
+    width: 100%;
+    padding: 1% 0;
+    
+}
+
+.foot div p{
+    margin-inline: 5% ;
+}
+
+.foot div a{
+    margin-inline: 5% ;
+    color: white;
+}
+
+.mail_status{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:1455px) {
+    
+    h1{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 0.95em;
+    }
+
+    nav a{
+        padding: 1% 5%;
+    }
+
+    .Populares_img img{
+        width: 80%;
+        height: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:1200px) {
+    
+    nav a{
+        padding: 1% 4%;
+    }
+
+    .Populares_img img{
+        width: 70%;
+        height: 40%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 0.82em;
+    }
+
+    nav a{
+        padding: 1% 3.5%;
+    }
+
+    .Populares_img img{
+        width: 60%;
+        height: 30%;
+        
+    }
+}
+
+@media screen and (max-width:880px) {
+
+    h2{
+        font-size: 0.75em;
+    }
+
+    .Box_2{
+        flex-wrap: wrap;
+
+    }
+
+    nav a{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        padding: 3% 0%;
+        margin-top: 3%;
+    }
+
+    nav{
+        margin-top: 5%;
+        flex-wrap: wrap;
+        
+    }
+
+    .Box_2 img{
+        width: 50%;
+    }
+
+    .title{
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .social_icons{
+        display: inline-flex;
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .Box_3{
+        margin-inline: 4.5%;
+        margin-top: 5%;
+        height: 40%;
+    }
+
+    input[value=">"]{
+        right: 0.5%;
+        top: 20%;
+    }
+    
+    input[value="<"]{
+        top: 20%;
+    }
+
+    .Populares_img {
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 11%;
+    }
+
+    .Populares_img div{
+        
+        
+        margin: 10% 0;
+        font-size: 1.2em;
+        padding: 20% 5%;
+    }
+
+    .Populares_img img{
+        
+        width: 100%;
+        height: 50%;
+        margin-left: 0%;
+    }
+
+    .Help_us{
+        flex-wrap: wrap;
+    }
+
+    .Help_us p{
+        margin-bottom: 3%;
+    }
+
+    .Help_us form{
+        width:95%;
+    }
+    
+    .Help_us form input{
+        width: 100%;
+        margin: 3% 0;
+        padding: 2% 0;
+    }
+
+    .Box_5 img[src="img/gewinn_logo2.png"]{
+        width: 100%;
+    }
+
+    .contact{
+        display: block;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .contact_tel_mail{
+        width: 100%;
+    }
+
+    .img_contact
+    {
+        margin-left: 25%;
+    }
+
+    .contact div a img{
+        border-radius: 48%;
+        padding: 2%;
+        width: 10%;
+        background: white;
+        margin: 7% 4%;
+    }
+
+    .foot div{
+        justify-content: space-evenly;
+        
+    }
+
+    .foot div p{
+        font-size: 0.8em;
+        
+    }
+
+    .foot div a{
+        font-size: 0.8em;
+        
+    }
+    .condiciones{
+        margin-inline: 12%;
+        font-size: 0.8em;
+    }
+
+    .register_box .register_form .user-box {
+        display: block;
+    }
+
+    
+
+}
